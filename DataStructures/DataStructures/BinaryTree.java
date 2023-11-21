@@ -1,6 +1,11 @@
 package DataStructures;
 
-public interface BinaryTree<T> {
+import java.util.List;
+
+public interface BinaryTree<T extends Comparable<T>> {
+    public int size();
+
+    public List<T> toList();
 
     public void print();
 
