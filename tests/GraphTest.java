@@ -59,7 +59,7 @@ class GraphTest {
 class DirectedGraphTest extends GraphTest{
     @Test
     void testVerticesSet1(){
-
+        
     }
 
     @Test
